@@ -2,7 +2,7 @@ export default {
     title: 'Home Page',
     name: 'home',
     type: 'document',
-    __experimental_actions: ['update', 'create', 'delete', 'publish'],
+    __experimental_actions: ['update', /*'create', 'delete',*/ 'publish'],
     fields: [
         {
             title: 'Title',
@@ -40,6 +40,13 @@ export default {
             name: 'content',
             type: 'array', 
             of: [{type: 'block'}],
+            validation: Rule => Rule.required()
+        },
+        {
+            title: 'Content Image',
+            name: 'contentImage',
+            description: 'The image to accompany the content',
+            type: "image",
             validation: Rule => Rule.required()
         },
         {

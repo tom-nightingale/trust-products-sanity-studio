@@ -2,7 +2,7 @@ export default {
     title: 'Shipping & Delivery',
     name: 'shipping-delivery',
     type: 'document',
-    __experimental_actions: ['update', 'create', 'delete', 'publish'],
+    __experimental_actions: ['update', /*'create', 'delete',*/ 'publish'],
     fields: [
         {
             title: 'Title',
