@@ -2,7 +2,7 @@ export default {
     title: 'Home Page',
     name: 'home',
     type: 'document',
-    __experimental_actions: ['update', /*'create', 'delete',*/ 'publish'],
+    __experimental_actions: ['update', 'create', 'delete', 'publish'],
     fields: [
         {
             title: 'Title',

@@ -2,8 +2,8 @@ const globalSlugs = {
     global: '/global',
     home: '/',
     returns: '/returns',
-    shippingDelivery: '/shippingDelivery',
-    termsConditions: '/termsConditions',
+    shippingDelivery: '/shipping-delivery',
+    termsConditions: '/terms-conditions',
 }
 
 const secret = process.env.SANITY_STUDIO_SANITY_PREVIEW_SECRET
