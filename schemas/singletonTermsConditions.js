@@ -1,8 +1,8 @@
 export default {
     title: 'Terms & Conditions',
-    name: 'termsConditions',
+    name: 'terms-conditions',
     type: 'document',
-    __experimental_actions: ['update', /* 'create', 'delete', */ 'publish'],
+    __experimental_actions: ['update', 'create', 'delete', 'publish'],
     fields: [
         {
             title: 'Title',
